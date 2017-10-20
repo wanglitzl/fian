@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="Content/css/swiper-3.3.1.min.css">
+    <link type="text/css" rel="stylesheet" href="Content/icon/iconfont.css">
+    <link type="text/css" rel="stylesheet" href="Content/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="Content/css/style.css">
+</head>
+<body ng-app="app">
+<div id="box">
+    <header class="header">
+        <a href="#/fian">服务</a>
+        <a href="#/bank">金融</a>
+        <i class="iconfont">
+            &#xe729;</i>
+    </header>
+    <section class="section">
+        <ui-view></ui-view>
+    </section>
+    <footer>
+        <a href="javascript:;"><i class="iconfont">&#xe648;</i><b>我的</b></a>
+        <a href="javascript:;"><i class="iconfont">&#xe692;</i><b>大众点评</b></a>
+        <a href="javascript:;"><i class="iconfont">&#xe63c;</i><b>选车</b></a>
+        <a href="javascript:;"><i class="iconfont">&#xe715;</i><b>发现</b></a>
+        <a href="javascript:;"><i class="iconfont">&#xe614;</i><b>未登录</b></a>
+    </footer>
+</div>
+<script type="text/javascript" src="Script/js/swiper-3.3.1.min.js"></script>
+<script type="text/javascript" src="Script/jquery/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="Script/js/iscroll5.js"></script>
+<!--<script type="text/javascript" src="Script/js/iscroll4.js"></script>-->
+<script type="text/javascript" src="Script/angular/angular.min.js"></script>
+<script type="text/javascript" src="Script/angular-ui/angular-ui-router.min.js"></script>
+<script type="text/javascript" src="App/app.js"></script>
+<script type="text/javascript" src="App/server/ajax.js"></script>
+<script type="text/javascript" src="App/server/fanserver.js"></script>
+<script type="text/javascript" src="App/Cotroller/controller.js"></script>
+<script type="text/javascript" src="App/Directive/directive.js"></script>
+<script>
+    document.documentElement.style.fontSize=document.documentElement.clientWidth/375*50+'px';
+</script>
+</body>
+</html>
